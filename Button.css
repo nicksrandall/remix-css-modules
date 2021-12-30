@@ -1,0 +1,22 @@
+/* css-modules:./styles.module.css.css */
+.button_vEqpUa {
+  box-shadow: none;
+  height: 2.5em;
+  vertical-align: top;
+  color: #363636;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-appearance: none;
+  background-color: #fff;
+  border-radius: .375em;
+  border: 1px solid #dbdbdb;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: calc(.5em - 1px) 1em;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: inline-flex;
+  position: relative;
+}

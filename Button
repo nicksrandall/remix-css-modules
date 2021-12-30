@@ -1,0 +1,20 @@
+// app/components/Button/index.tsx
+import * as React from "react";
+import clsx from "clsx";
+
+// css-modules:./styles.module.css.js
+var styles_module_css_default = {
+  "button": "button_vEqpUa"
+};
+
+// app/components/Button/index.tsx
+var Button = (props) => {
+  const { children, className, ...rest } = props;
+  return /* @__PURE__ */ React.createElement("button", {
+    className: clsx(styles_module_css_default.button, className),
+    ...rest
+  }, children);
+};
+export {
+  Button
+};

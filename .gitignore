@@ -1,0 +1,7 @@
+node_modules
+app/routes-built
+
+/.cache
+/build
+/public/build
+.env

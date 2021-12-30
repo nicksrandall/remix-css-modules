@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "remix-app-template",
+  "description": "",
+  "license": "",
+  "scripts": {
+    "build": "node scripts/build.js --minify && remix build",
+    "dev": "concurrently \"node scripts/build.js --watch\" \"remix dev\"",
+    "postinstall": "remix setup node",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@remix-run/react": "^1.1.1",
+    "@remix-run/serve": "^1.1.1",
+    "clsx": "^1.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remix": "^1.1.1"
+  },
+  "devDependencies": {
+    "@parcel/css": "^1.0.0-alpha.8",
+    "@remix-run/dev": "^1.1.1",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "common-tags": "^1.8.2",
+    "concurrently": "^6.5.1",
+    "esbuild": "^0.14.9",
+    "tiny-glob": "^0.2.9",
+    "typescript": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
